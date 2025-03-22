@@ -8,3 +8,10 @@ def cos(x):
 
 def tan(x):
     return math.tan(math.radians(x))
+
+class Worker:
+    def __init__(self):
+        self.worker = list()
+    
+    def add_work(self, func):
+        self.wo
